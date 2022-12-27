@@ -5,15 +5,15 @@ import os
 
 
 class Config(object):
-    API_ID = int(os.getenv("API_ID", "25883538"))
-    API_HASH = os.getenv("API_HASH", "a7afdf9222cb6bf639b268b9e2408242)
-    BOT_TOKEN = os.getenv("BOT_TOKEN", "5678603227:AAG7dZy0hNfwbLhDE3EaZ_0cDs2lQN46zKI")
+    API_ID = int(os.getenv("API_ID", "25785649"))
+    API_HASH = os.getenv("API_HASH", "067de256688143d2674f37035368aadb")
+    BOT_TOKEN = os.getenv("BOT_TOKEN", "5613138387:AAG1s0Tls4vb0qM8XdGB-_nanB8gTkK_OzA")
     BOT_SESSION_NAME = os.getenv("BOT_SESSION_NAME", "mdiskcynitebot")
-    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "AQAeuyek_0xnr9E95aHQM6PCeCrE8Qf63IvPLZwEcN0MP3Nm4ozRTW-MPtCn_iqMGpTbE3PuAxvuOTdn9SyDSbH4VAcuE1UzCpTqdO1y-DF-GGsOCgcAy0qiGBdD54sloTc2I4AAofS7zxlesmQpj3XQ3SpxJSL9HWUvLKB9tdBGE2rjBMtwtxDzCWSLmxoVWZ_9R070r5Odg19YhFKU36sWV7FIcW3s3XOfcU1QlFicR_vUiPqNqeh5u1_Ua_PE119qR1HjNWH_ADuikrh4i9eXPEnuaIrae_gCDa5VcbqOElJes3tAnNR5VOn4nO8EyPoFfq2KLd1uvOefCKdrGh1vAAAAAU-DZq4A")
-    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001732524053) 
-    BOT_USERNAME = os.getenv("BOT_USERNAME", "Missrose5Lbot")
-    BOT_OWNER = int(os.getenv("BOT_OWNER", "5628978862"))
-#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "User_308")
+    USER_SESSION_STRING = os.getenv("USER_SESSION_STRING", "AQBetKtSQhhy6nHdRDM7fqSzSD2-baHInS3dJKodzQpATg7zJe4Qa9tn2twwLUOHXURhtHUw-yCjwiJubxARsDR3SgVmwi0D9m4U3X9S-zBhoQ6infW92hpEzpRb3OoSVZUo4uVAKr_Kzqw1cYRyFSVcBsaHvA-gGwr4h5HK9To0OAJLQRDLQSp0FM66rop8P-jFCNbexBTu26Y59x4ixHPy1LuwFbSn4e4gZemSxyBehjIzu2GtuQkj1wPyHK1ThCxkaUu5H8EqgxJqWeIS6tfMVIX08gkZXOigvbgggW9NbpcvGp35p8LrtmOvERPL3JqgPfgRQ8XgDPr2V9Qi5MocAAAAAWFexusA")
+    CHANNEL_ID = int(os.getenv("CHANNEL_ID", "-1001635502217") 
+    BOT_USERNAME = os.getenv("BOT_USERNAME", "Search_me5bot")
+    BOT_OWNER = int(os.getenv("BOT_OWNER", "5928568555"))
+#    OWNER_USERNAME = os.getenv("OWNER_USERNAME", "Mmm_jjgc")
     BACKUP_CHANNEL = os.getenv("BACKUP_CHANNEL", "rr_backup")
 #    GROUP_USERNAME = os.getenv("GROUP_USERNAME")
     START_MSG = os.getenv("START_MSG", """**Hᴇʏ {}, 
@@ -30,8 +30,9 @@ Jᴜsᴛ Tʏᴘᴇ ᴀ Mᴏᴠɪᴇ Nᴀᴍᴇ 🎬**""" )
 
 ꜰᴏʀ ᴍᴏʀᴇ ɪɴꜰᴏ ᴄʟɪᴄᴋ ᴏɴ ʜᴇʟᴘ ✅""" )
     UPDATES_CHANNEL = os.getenv("UPDATES_CHANNEL", "-1001745038641")
-    DATABASE_URL = os.getenv("DATABASE_URL", "mongodb+srv://work:pleasework@cluster0.l34dicd.mongodb.net/?retryWrites=true&w=majority")
-    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001240253474"))
+    DATABASE_URL = os.getenv("DATABASE_URL", "
+mongodb+srv://Pooja65:Pooja65@cluster0.ic4nrki.mongodb.net/?retryWrites=true&w=majority")
+    LOG_CHANNEL = int(os.getenv("LOG_CHANNEL", "-1001771858014"))
     RESULTS_COUNT = int(os.getenv("RESULTS_COUNT", 20))
     BROADCAST_AS_COPY = os.getenv("BROADCAST_AS_COPY", "True")
     UPDATES_CHANNEL_USERNAME = os.getenv("UPDATES_CHANNEL_USERNAME", "rr_backup")
